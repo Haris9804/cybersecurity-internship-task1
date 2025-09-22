@@ -1,0 +1,29 @@
+# Nmap 7.94 scan initiated Sun Oct 29 14:30:00 2023 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0010s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 192.168.1.105
+Host is up (0.005s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+9090/tcp open  zeus-admin
+
+Nmap scan report for 192.168.1.120
+Host is up (0.003s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+
+Nmap scan report for 192.168.1.15 (my own machine)
+Host is up (0.00010s latency).
+All 1000 scanned ports on 192.168.1.15 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Sun Oct 29 14:31:45 2023 -- 256 IP addresses (4 hosts up) scanned in 105.21 seconds
